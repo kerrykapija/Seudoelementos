@@ -1,0 +1,20 @@
+p::first-line{
+	font-size:2em;
+}
+p.letra::first-letter{
+	font-size:3em;
+}
+p::before{
+	content:"Pera ";
+	color:blue;
+}
+li::before{
+	background-image:url(img/check.png);
+	content:url(img/check.png);
+}
+div.fondo{
+	background-image:url(img/heisenburger.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
